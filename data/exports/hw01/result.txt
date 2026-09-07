@@ -1,0 +1,21 @@
+wells shape: (7, 15)
+pressure_matrix shape: (13, 2)
+pressure_cube shape: (2, 13, 2)
+
+Min:
+pressure_mpa         9.42
+radius_m             5.00
+thickness_m          2.00
+porosity_fraction    0.15
+
+Max:
+pressure_mpa          12.00
+radius_m             500.00
+thickness_m            7.00
+porosity_fraction      0.24
+
+Mean:
+pressure_mpa          10.750000
+radius_m             150.714286
+thickness_m            4.500000
+porosity_fraction      0.195000
