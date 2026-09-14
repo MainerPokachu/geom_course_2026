@@ -14,8 +14,8 @@ def main() -> None:
     output_dir = ROOT / "data/processed/hw01"
     output_file1 = output_dir / "wells_clean.csv"
     output_file2 = output_dir / "table_summary.xlsx"
-    result_txt = ROOT / "data/exports/hw01/result.txt"
-    exports_dir = ROOT / "data/exports/hw01"
+    result_txt = ROOT / "exports/hw01/result.txt"
+    exports_dir = ROOT / "exports/hw01"
     
     #импорт таблиц в переменные
     wells = du.read_wells(path1)
@@ -98,7 +98,7 @@ def main() -> None:
     mask = pressure < pressure.mean()
     selected = pressure[mask]
     print("First mask: ", selected)
-    mask = wells_clean["radius_m"] < 100
+    mask = wells_clean["radius_m"] > 100
     selected = wells_clean[mask]
     print("Second mask: ", selected)
     

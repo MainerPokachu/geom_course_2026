@@ -30,7 +30,7 @@ def save_txt(path, table, output_file):
     
 def save_xlsx(path, table, output_file):
     path.mkdir(parents=True, exist_ok=True)
-    table.to_excel(output_file, index=False)
+    table.to_excel(output_file, index=True)
     
 def print_matrix_info(matrix):
     print(matrix.ndim)
