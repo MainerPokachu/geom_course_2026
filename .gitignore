@@ -18,6 +18,8 @@ data/processed/*
 !data/processed/hw01/**
 figures/*
 !figures/.gitkeep
+!figures/hw02/
+!figures/hw02/**
 exports/*
 !exports/.gitkeep
 !exports/hw01/
